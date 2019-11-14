@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawerLayout2"
+    android:layout_width="410dp"
+    android:layout_height="750dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/background">
+
+            <androidx.constraintlayout.widget.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/vertical_guide_line1"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.04"/>
+
+            <androidx.constraintlayout.widget.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/vertical_guide_line3"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.125"/>
+
+            <androidx.constraintlayout.widget.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/vertical_guide_line4"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.18"/>
+
+            <androidx.constraintlayout.widget.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/vertical_guide_line5"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.28"/>
+
+            <androidx.constraintlayout.widget.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/vertical_guide_line6"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.88"/>
+
+            <androidx.constraintlayout.widget.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/vertical_guide_line2"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.95"/>
+
+            <androidx.constraintlayout.widget.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/update_guide1"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="0.015"/>
+
+            <androidx.constraintlayout.widget.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/update_guide2"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="0.04"/>
+
+            <androidx.constraintlayout.widget.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/menu_top_guide_line"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="0.01"/>
+
+            <androidx.constraintlayout.widget.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/menu_bottom_guide_line"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="0.05"/>
+
+            <androidx.constraintlayout.widget.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tab_top_guide"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="0.08"/>
+
+            <androidx.constraintlayout.widget.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tab_bottom_guide"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="0.15"/>
+
+            <androidx.constraintlayout.widget.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/horizontal_guide_line8"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="0.91"/>
+
+            <androidx.constraintlayout.widget.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/horizontal_guide_line9"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="0.9"/>
+
+            <androidx.constraintlayout.widget.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/horizontal_guide_line10"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="0.96"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:id="@+id/menuBtn2"
+                android:background="@drawable/ic_menu"
+                android:layout_marginBottom="5dp"
+                app:layout_constraintTop_toBottomOf="@id/update_guide1"
+                app:layout_constraintBottom_toTopOf="@id/update_guide2"
+                app:layout_constraintLeft_toRightOf="@id/vertical_guide_line1"
+                app:layout_constraintRight_toLeftOf="@id/vertical_guide_line3">
+            </Button>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:id="@+id/notification_button"
+                android:background="@drawable/ic_notifications_black_24dp"
+                app:layout_constraintTop_toBottomOf="@id/menu_top_guide_line"
+                app:layout_constraintBottom_toTopOf="@id/menu_bottom_guide_line"
+                app:layout_constraintLeft_toRightOf="@id/vertical_guide_line4"
+                app:layout_constraintRight_toLeftOf="@id/vertical_guide_line5"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:id="@+id/back_button"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/ic_back"
+                app:layout_constraintTop_toTopOf="@id/menuBtn2"
+                app:layout_constraintBottom_toBottomOf="@id/menuBtn2"
+                app:layout_constraintRight_toLeftOf="@id/vertical_guide_line2"
+                app:layout_constraintLeft_toRightOf="@id/vertical_guide_line6"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textStyle="normal"
+                android:text="@string/my_bills"
+                app:layout_constraintTop_toTopOf="@id/notification_button"
+                app:layout_constraintBottom_toBottomOf="@id/notification_button"
+                app:layout_constraintLeft_toRightOf="@id/vertical_guide_line5"
+                app:layout_constraintRight_toLeftOf="@+id/back_button"/>
+
+            <com.google.android.material.appbar.AppBarLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginEnd="10dp"
+                app:layout_constraintLeft_toRightOf="@id/vertical_guide_line1"
+                app:layout_constraintRight_toLeftOf="@id/vertical_guide_line2"
+                app:layout_constraintTop_toBottomOf="@id/tab_top_guide"
+                app:layout_constraintBottom_toTopOf="@id/tab_bottom_guide">
+
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/toolBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    app:layout_collapseMode="pin"
+                    app:layout_scrollFlags="scroll|enterAlways">
+
+                    <com.google.android.material.tabs.TabLayout
+                        android:id="@+id/tabLayout"
+                        style="@style/ChipTabLayout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        app:tabIndicatorHeight="30dp"
+                        app:tabMode="scrollable"
+                        app:tabGravity="center"
+                        android:layout_gravity="center"
+                        app:tabIndicatorGravity="center"
+                        android:minHeight="?attr/actionBarSize"/>
+                </androidx.appcompat.widget.Toolbar>
+
+            </com.google.android.material.appbar.AppBarLayout>
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/pager_header"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginEnd="10dp"
+                app:layout_constraintTop_toBottomOf="@id/tab_bottom_guide"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toRightOf="@id/vertical_guide_line1"
+                app:layout_constraintRight_toLeftOf="@id/vertical_guide_line2"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/drawer_bill_menu"/>
+
+</androidx.drawerlayout.widget.DrawerLayout>

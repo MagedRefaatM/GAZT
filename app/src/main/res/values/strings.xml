@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">GAZT</string>
+    <string name="logo_description" translatable="false">AuthorityLogo</string>
+    <string name="الرقم_المميز">الرقم المميز</string>
+    <string name="كلمه_المرور">كلمة المرور</string>
+    <string name="forget_password">نسيت كلمة المرور؟</string>
+    <string name="remember_me">تذكرني</string>
+    <string name="enter">دخول</string>
+    <string name="please_enter">الرجاء ادخال رمز التحقق الذي تم ارساله علي الهاتف \ الجوال****24542 </string>
+    <string name="splash" translatable="false">splash_logo</string>
+    <string name="settings">Settings</string>
+    <string name="Arabic" translatable="false">العربية</string>
+    <string name="English" translatable="false">English</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="date" translatable="false">14 محرم 1442</string>
+    <string name="profile_picture">profile picture</string>
+    <string name="edit_profile">edit_profile</string>
+    <string name="name">أحمد جلال</string>
+    <string name="job_title">مهندس مشاريع</string>
+    <string name="total_number">مجموع الفواتير غير المسددة</string>
+    <string name="price">154,000 ر.س</string>
+    <string name="paid">تم تسديد 10.000 ريال سعودى خلال \ السنة المالية الحالية</string>
+    <string name="my_bills">فواتيرى</string>
+    <string name="my_degrees">شهاداتى</string>
+    <string name="estimation">إقرار زكاة تقديرى</string>
+    <string name="number" translatable="false">150</string>
+    <string name="endorsement">إقرار</string>
+    <string name="late" translatable="false">late</string>
+    <string name="presented" translatable="false">presented</string>
+    <string name="late_endorsement">إقرارات متأخرة</string>
+    <string name="late_percent" translatable="false">%20</string>
+    <string name="presented_percent" translatable="false">%80</string>
+    <string name="submissions">إقرارات مقدمة</string>
+    <string name="type">نوع الزكاة الضريبية</string>
+    <string name="num">رقم فاتورة السداد</string>
+    <string name="price2">المبلغ المستحق</string>
+    <string name="date2">تاريخ الإستحقاق</string>
+    <string name="estimation2">زكاة تقديرى</string>
+    <string name="actual_number" translatable="false">3254526452544</string>
+    <string name="cost" translatable="false">2540</string>
+    <string name="amount">ر.س</string>
+    <string name="icon">icon</string>
+    <string name="paid2">مدفوعة</string>
+    <string name="time" translatable="false">5/2/1442</string>
+    <string name="total_page">الجميع</string>
+    <string name="paid_page">المدفوعة</string>
+    <string name="unpaid_page">غير مدفوعة</string>
+    <string name="untaked_page">غير مسددة جزئيا</string>
+    <string name="share">Share</string>
+    <string name="rate">Rate</string>
+    <string name="logout">LOGOUT</string>
+    <string name="five_stars">Five Stars !!</string>
+    <string name="first">first star</string>
+    <string name="second">second star</string>
+    <string name="third">third star</string>
+    <string name="fourth">fourth star</string>
+    <string name="fifth">fifth star</string>
+    <string name="home">Home</string>
+</resources>

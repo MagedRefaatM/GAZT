@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
+    tools:context=".RateFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:id="@+id/logoutTv"
+        android:textColor="@android:color/white"
+        android:text="@string/logout"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent">
+    </TextView>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/blocking1"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.3">
+    </androidx.constraintlayout.widget.Guideline>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/blocking2"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.6">
+    </androidx.constraintlayout.widget.Guideline>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/blocking8"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.03">
+    </androidx.constraintlayout.widget.Guideline>
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/faceExpressionIV"
+        android:contentDescription="@string/rate"
+        android:background="@drawable/img10"
+        app:layout_constraintLeft_toRightOf="@id/blocking1"
+        app:layout_constraintRight_toLeftOf="@id/blocking2"
+        app:layout_constraintTop_toBottomOf="@id/blocking8"
+        app:layout_constraintBottom_toTopOf="@id/blocking3">
+    </ImageView>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/blocking3"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.2">
+    </androidx.constraintlayout.widget.Guideline>
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/oneStarIV"
+        android:contentDescription="@string/first"
+        android:background="@drawable/img8"
+        app:layout_constraintLeft_toRightOf="@id/blocking1"
+        app:layout_constraintRight_toLeftOf="@id/blocking2"
+        app:layout_constraintTop_toBottomOf="@id/blocking3"
+        app:layout_constraintBottom_toTopOf="@id/blocking4">
+    </ImageView>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/blocking4"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.35">
+    </androidx.constraintlayout.widget.Guideline>
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/twoStarsIV"
+        android:contentDescription="@string/second"
+        android:background="@drawable/img8"
+        app:layout_constraintLeft_toRightOf="@id/blocking1"
+        app:layout_constraintRight_toLeftOf="@id/blocking2"
+        app:layout_constraintTop_toBottomOf="@id/blocking4"
+        app:layout_constraintBottom_toTopOf="@id/blocking5">
+    </ImageView>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/blocking5"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5">
+    </androidx.constraintlayout.widget.Guideline>
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/third"
+        android:id="@+id/threeStarsIV"
+        android:background="@drawable/img8"
+        app:layout_constraintLeft_toRightOf="@id/blocking1"
+        app:layout_constraintRight_toLeftOf="@id/blocking2"
+        app:layout_constraintTop_toBottomOf="@id/blocking5"
+        app:layout_constraintBottom_toTopOf="@id/blocking6">
+    </ImageView>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/blocking6"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.65">
+    </androidx.constraintlayout.widget.Guideline>
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/fourStarsIV"
+        android:contentDescription="@string/fourth"
+        android:background="@drawable/img8"
+        app:layout_constraintLeft_toRightOf="@id/blocking1"
+        app:layout_constraintRight_toLeftOf="@id/blocking2"
+        app:layout_constraintTop_toBottomOf="@id/blocking6"
+        app:layout_constraintBottom_toTopOf="@id/blocking7">
+    </ImageView>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/blocking7"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.8">
+    </androidx.constraintlayout.widget.Guideline>
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/fiveStarsIV"
+        android:contentDescription="@string/fifth"
+        android:background="@drawable/img8"
+        app:layout_constraintLeft_toRightOf="@id/blocking1"
+        app:layout_constraintRight_toLeftOf="@id/blocking2"
+        app:layout_constraintTop_toBottomOf="@id/blocking7"
+        app:layout_constraintBottom_toTopOf="@id/blocking9">
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:id="@+id/fiveTv"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/five_stars"
+        app:layout_constraintLeft_toRightOf="@id/fiveStarsIV"
+        app:layout_constraintTop_toTopOf="@id/fiveStarsIV"
+        app:layout_constraintBottom_toTopOf="@id/blocking9">
+    </TextView>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/blocking9"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.95">
+    </androidx.constraintlayout.widget.Guideline>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/holo_red_light"
+        android:id="@+id/warningTv"
+        android:visibility="invisible"
+        app:layout_constraintTop_toBottomOf="@id/blocking9"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+    </TextView>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:id="@+id/demon"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </CheckBox>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
